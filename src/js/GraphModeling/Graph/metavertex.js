@@ -63,9 +63,6 @@ export default class MetaVertex {
   getBrothers() {
     return this.props.brothers;
   }
-  checkBrothers() {
-    
-  }
 
   addParent(parent) {
     this.props.parent.push(parent);
